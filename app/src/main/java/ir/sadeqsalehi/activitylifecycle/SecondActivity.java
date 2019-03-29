@@ -21,6 +21,7 @@ public class SecondActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
+        //very important event method
         super.onResume();
         Toast.makeText(this, "SecondActivity : onResume", Toast.LENGTH_SHORT).show();
     }
